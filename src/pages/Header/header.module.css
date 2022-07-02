@@ -8,12 +8,15 @@
 }
 
 .logo {
-  width: 55px;
+  background-image: url("../../assets/icons/headerLogo.svg");
+  width: 25px;
   height: 24px;
   cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.menuWrapper {
+.navMenuWrapper {
   display: flex;
   align-items: center;
   gap: 40px;

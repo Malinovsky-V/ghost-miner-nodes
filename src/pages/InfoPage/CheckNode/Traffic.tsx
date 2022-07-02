@@ -30,6 +30,24 @@ export default function Traffic() {
       <div className={styles.scheduleImage} />
       <div className={styles.accuredRewardsBlock}>
         <p className={styles.title}>Accrued Rewards</p>
+        <div className={styles.gridTable}>
+          <div className={styles.gridTitle}>
+            <p>Amount</p>
+            <p>Date</p>
+          </div>
+          <div className={styles.gridCell}>
+            <p>377 000 GXD</p>
+            <p>05/02/2020 3. a.m</p>
+          </div>
+          <div className={styles.gridCell}>
+            <p>377 000 GXD</p>
+            <p>05/02/2020 3. a.m</p>
+          </div>
+          <div className={styles.gridCell}>
+            <p>377 000 GXD</p>
+            <p>05/02/2020 3. a.m</p>
+          </div>
+        </div>
       </div>
     </div>
   );

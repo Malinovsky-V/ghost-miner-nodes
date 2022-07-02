@@ -1,0 +1,85 @@
+.wrapper {
+  height: 452px;
+  display:grid;
+  grid-template-columns: 490px 1fr 1fr;
+  padding: 0 100px ;
+align-items: center;
+justify-items: center;
+}
+.emailBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.iconInEmailBlock {
+  width: 38px;
+  height: 53px;
+  background-image: url("../../assets/icons/iconInEmailBlock.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-area: icon;
+}
+.inputContainer {
+  width: 100%;
+}
+.navMenuWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.navItem {
+  text-decoration: none;
+  color: white;
+font-style: normal;
+font-size: 16px;
+line-height: 24px;
+
+}
+.joinUsBlock{
+  display:flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.joinUsTitle {
+  font-size:20px;
+  font-weight: 700;
+  color: #D5D5D5;
+}
+.socialIconsContainer {
+  display: flex;
+  gap: 20px;
+}
+.mSocialIcon {
+  cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background-image: url("../../assets/icons/mSocialIcon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: icon;
+}
+.telegramIcon {
+  cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background-image: url("../../assets/icons/telegramIcon.svg");
+    background-repeat: no-repeat;
+    grid-area: icon;
+}
+.gitHubIcon {
+  cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background-image: url("../../assets/icons/gitHubIcon.svg");
+    background-repeat: no-repeat;
+    grid-area: icon;
+}
+.twitterIcon {
+  cursor: pointer;
+  width: 36px;
+    height: 36px;
+    background-image: url("../../assets/icons/twitterIcon.svg");
+    background-repeat: no-repeat;
+    grid-area: icon;
+}

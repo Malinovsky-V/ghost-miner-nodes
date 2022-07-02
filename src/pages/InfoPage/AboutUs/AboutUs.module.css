@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 84px;
+}
+.title span {
+  background-image: linear-gradient(to right top, #05F0FD 29%, #025CF1 71%
+   );
+  background-clip: text;
+  color: transparent;
+}
+.informationBlocks {
+  display: flex;
+  gap: 20px;
+}
+.informationBlock {
+  width: 260px;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-gap: 10px;
+  grid-template-areas: " icon title"
+  "icon description ";
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../../assets/icons/iconInformationBlock.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-area: icon;
+}
+.titleBlock {
+  font-size: 24px;
+  font-weight: 700;
+  grid-area: title;
+  line-height: 30px;
+  white-space: pre-line;
+
+  
+}
+.description {
+  line-height: 24px;
+  white-space: pre-line;
+  font-size: 16px;
+  font-weight: 400;
+  color: #D5D5D5;
+  grid-area: description;
+}

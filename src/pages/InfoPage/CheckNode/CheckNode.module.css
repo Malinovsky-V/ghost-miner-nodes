@@ -19,7 +19,10 @@ grid-template-columns: 1fr 1fr;
   
   }
   .spanOne {
-    color: #05F0FD;
+    background-image: linear-gradient(to right top,  #05F0FD 75%
+    , #025CF1 );
+    background-clip: text;
+    color: transparent;
   }
   .spanTwo {
     background-image: linear-gradient(to right top,  #025CF1 

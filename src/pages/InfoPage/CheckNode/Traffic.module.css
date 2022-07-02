@@ -65,4 +65,39 @@
 .accuredRewardsBlock {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gridTable {
+  display: grid;
+  grid-template-columns: 522px;
+  grid-auto-rows: 1fr;
+}
+
+.gridTitle, .gridCell{
+  display: grid;
+  grid-template-columns: 300px 222px;
+  font-weight: 400;
+}
+.gridTitle{
+  font-size: 12px;
+  font-weight: 400;
+  color: #7C7E88;
+padding: 18px 0 8px 0;
+align-items: end;
+
+}
+.gridCell {
+font-size: 14px;
+padding: 18px 0;
+}
+ .gridCell:nth-child(even) {
+background-color: #2F2A36;
+}
+.gridCell p:nth-child(odd) , .gridTitle p:nth-child(odd){
+  padding-left: 80px;
+}
+.gridCell p:nth-child(even){
+color:#D5D5D5; 
 }
