@@ -1,0 +1,68 @@
+.firstBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.speedometersBlock {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  width: 400px;
+}
+.outgoing {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-image: url("../../../assets/img/Outgoing.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.incoming {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-image: url("../../../assets/img/Incoming.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.boxes {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 50px;
+  width: 184px;
+  height: 173px;
+  background:#1A1922;
+}
+.box p {
+  font-weight: 700;
+  font-size: 32px;
+}
+.box span {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #BFCBE1;
+}
+.scheduleImage {
+  position: relative;
+  width: 100%;
+  height: 590px;
+  background-image: url("../../../assets/img/schedule.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.accuredRewardsBlock {
+  display: flex;
+  justify-content: center;
+}

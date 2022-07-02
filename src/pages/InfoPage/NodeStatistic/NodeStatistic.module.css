@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  text-align: center;
+  font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 84px;
+}
+.title span {
+  background-image: linear-gradient(25deg,  #025CF1 
+  , #05F0FD );
+  background-clip: text;
+  color: transparent;
+}
+
+.dataBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstDataBlock {
+  font-size: 61px;
+  padding: 20px;
+  border-bottom: 1px solid blue;
+  border-top: 1px solid red;
+}
+.firstDataBlock span {
+  font-size: 49.52px;
+  color: #3B3943;
+}
+.secondDataBlock {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  grid-gap: 5px 100px;
+}
+.secondDataBlock p {
+  font-size: 48px;
+}
+.secondDataBlock span {
+  font-size: 24px;
+  color: #3B3943;
+}
+.image {
+  width: 100%;
+  height: 596.51px;
+  background-image: url("../../../assets/img/map.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+}

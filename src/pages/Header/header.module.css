@@ -1,0 +1,32 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  z-index: 205;
+  padding: 10px 100px;
+}
+
+.logo {
+  width: 55px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.menuWrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+font-style: normal;
+font-size: 16px;
+line-height: 24px;
+
+}
+.navItem:hover {
+  color:blue;
+}

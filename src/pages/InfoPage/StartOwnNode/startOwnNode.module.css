@@ -1,0 +1,48 @@
+.wrapper {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 651px 1fr;
+  grid-template-rows: auto;
+}
+.textBlockWrapper {
+display: flex;
+flex-direction: column;
+gap:25px;
+}
+.title {
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 84px;
+white-space: pre-line;
+}
+.titleTwo {
+font-size: 63px;
+
+}
+.spanOne {
+  color: #05F0FD;
+}
+.spanTwo {
+  background-image: linear-gradient(to right top,  #025CF1 
+  , #05F0FD );
+  background-clip: text;
+  color: transparent;
+}
+.subTitle {
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+white-space: pre-line;
+}
+.imageBlock {
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
+  position: relative;
+  left: 100px;
+  bottom: 130px;
+  background-image: url("../../../assets/img/startOwnNode.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
