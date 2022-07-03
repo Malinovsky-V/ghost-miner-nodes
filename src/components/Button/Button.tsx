@@ -1,15 +1,15 @@
 import styles from "./button.module.css";
 
 type ButtonProps = {
-  children: string;
+  textButton: string;
   type: string;
 };
 
-export default function Button({ children, type }: ButtonProps) {
+export default function Button({ textButton, type }: ButtonProps) {
   return (
-    <div className={`${styles[`wrapper-${type}`]} ${styles.wrapper}`}>
+    <div className={`${styles[`wrapper-${type}`]} ${styles.buttonWrapper}`}>
       <button className={`${styles[`button-${type}`]} ${styles.button}`}>
-        {children}
+        {textButton}
       </button>
     </div>
   );

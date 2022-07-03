@@ -34,6 +34,7 @@ justify-items: center;
 font-style: normal;
 font-size: 16px;
 line-height: 24px;
+font-weight: 600;
 
 }
 .joinUsBlock{
@@ -82,4 +83,14 @@ line-height: 24px;
     background-image: url("../../assets/icons/twitterIcon.svg");
     background-repeat: no-repeat;
     grid-area: icon;
+}
+.usefulPages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.usefulPages a {
+  text-decoration: none;
+  color:#D5D5D5;
+  font-weight: 400;
 }

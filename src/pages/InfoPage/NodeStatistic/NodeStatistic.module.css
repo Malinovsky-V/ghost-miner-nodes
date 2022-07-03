@@ -25,6 +25,8 @@ line-height: 84px;
 }
 .firstDataBlock {
   font-size: 61px;
+  font-weight: 700;
+
   padding: 20px;
   border-bottom: 1px solid blue;
   border-top: 1px solid red;
@@ -32,6 +34,8 @@ line-height: 84px;
 .firstDataBlock span {
   font-size: 49.52px;
   color: #3B3943;
+  font-weight: 600;
+
 }
 .secondDataBlock {
   display:grid;
@@ -41,10 +45,12 @@ line-height: 84px;
 }
 .secondDataBlock p {
   font-size: 48px;
+  font-weight: 700;
 }
 .secondDataBlock span {
   font-size: 24px;
   color: #3B3943;
+  font-weight: 600;
 }
 .image {
   width: 100%;

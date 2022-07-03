@@ -15,7 +15,7 @@ export default function InputWithButton({ type, placeholder, textButton}: InputW
         placeholder={placeholder}
       ></input>
       <div className={styles.button}>
-        <Button type={type}>Check</Button>
+        <Button type={type} textButton={textButton} />
       </div>
     </div>
   );

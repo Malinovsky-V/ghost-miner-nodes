@@ -1,3 +1,4 @@
+import ExamplesInputsWithButtons from "../../components/InputWithButton/ExamplesInputsWithButtons";
 import AboutUs from "./AboutUs/AboutUs";
 import CheckNode from "./CheckNode/CheckNode";
 import styles from "./InfoPage.module.css";
@@ -13,6 +14,7 @@ export default function InfoPage() {
       <CheckNode />
       <RewardCalculator />
       <AboutUs />
+      <ExamplesInputsWithButtons type="submit" placeholder="sss" textButton="222" />
     </div>
   );
 }
