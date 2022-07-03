@@ -17,9 +17,13 @@ export default function ExamplesInputsWithButtons({
       <div className={styles.inputWrapper}>
         <input className={` ${styles.input}`}></input>
       </div>
-      <div className={styles.buttonWrapper}>
-        <div className={styles.button}>Check</div>
-      </div>
+
+      <Button type="disabled" textButton="check" />
+      <Button type="simple" textButton="check" />
+      <Button type="success" textButton="check" />
+      <Button type="error" textButton="check" />
+      <Button type="warning" textButton="check" />
+      <Button type="check" textButton="check" />
     </div>
   );
 }

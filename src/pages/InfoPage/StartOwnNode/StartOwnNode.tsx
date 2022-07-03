@@ -17,7 +17,7 @@ export default function StartOwnNode() {
           1500s, when an{`\n`} unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
-        <Button type="ownNode" textButton="Start you own Node" />
+        <Button type="simple" textButton="Start you own Node" onClick={()=> console.log("i am a button")} />
       </div>
       <div className={styles.imageBlock}></div>
     </div>
