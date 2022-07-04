@@ -12,7 +12,7 @@ export default function Footer() {
         </p>
         <div>
           <InputWithButton
-            type="submit"
+            type="check"
             placeholder="Enter your email"
             textButton="subsribe"
           />

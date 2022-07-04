@@ -30,6 +30,7 @@ export default function AboutUs() {
           </span>
         </div>
       </div>
+      <div className={styles.aboutUsLines} />
     </div>
   );
 }

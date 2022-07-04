@@ -1,11 +1,18 @@
 .gridWrapper {
 display: grid;
 grid-template-columns: 1fr 1fr;
+grid-auto-rows: 700px;
+align-self: center;
 }
 .checkBlock {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  position: relative;
+
+}
+.inputContainer {
+  width: 618px;
 }
 .titleOne {
   font-style: normal;
@@ -29,12 +36,43 @@ grid-template-columns: 1fr 1fr;
     , #05F0FD );
     background-clip: text;
     color: transparent;
+    
   }
-.image{
+  .backgroundLines{
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+    width: 68px;
+    height: 332px;
+    background-size: cover;
+    background-image: url("../../../assets/img/checkBackgroundLines.svg");
+background-repeat: no-repeat;
+background-position: center;
+  }
+
+.imageBlock{
   position: relative;
+  width: 100%;
+}
+.boxesImage {
+  position: absolute;
   width: 100%;
   height: 820px;
   background-image: url("../../../assets/img/boxes.svg");
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 0;
 }
+.backgroundEllipse {
+  position: absolute;
+  right: 10%;
+  top:-65px;
+  width:100%;
+height: 100%;
+border-radius: 50%;
+background-image: url("../../../assets/img/backgroundCheck.svg");
+background-repeat: no-repeat;
+background-position: center;
+filter: blur(40px);
+}
+

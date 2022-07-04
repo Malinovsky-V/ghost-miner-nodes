@@ -3,8 +3,10 @@
   display: grid;
   grid-template-columns: 651px 1fr;
   grid-template-rows: auto;
+  position: relative;
 }
 .textBlockWrapper {
+  position: relative;
 display: flex;
 flex-direction: column;
 gap:25px;
@@ -45,4 +47,27 @@ white-space: pre-line;
   background-image: url("../../../assets/img/startOwnNode.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+.dottedLines {
+  background-image: url("../../../assets/img/dottedLines.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: -10px;
+  right: -180px;
+  width: 775px;
+  height: 388px;
+}
+.backgroundStartEllipse {
+  position: absolute;
+  left: -309px;
+  top:-43px;
+  width:493px;
+height: 462px;
+border-radius: 50%;
+background-image: url("../../../assets/img/backgroundCheck.svg");
+background-repeat: no-repeat;
+background-position: center;
+filter: blur(40px);
+
 }

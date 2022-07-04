@@ -1,7 +1,8 @@
 .wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 .title {
@@ -26,10 +27,9 @@ line-height: 84px;
 .firstDataBlock {
   font-size: 61px;
   font-weight: 700;
+  position: relative;
 
-  padding: 20px;
-  border-bottom: 1px solid blue;
-  border-top: 1px solid red;
+  padding: 17.5px;
 }
 .firstDataBlock span {
   font-size: 49.52px;
@@ -53,10 +53,41 @@ line-height: 84px;
   font-weight: 600;
 }
 .image {
+  z-index: 2;
   width: 100%;
   height: 596.51px;
   background-image: url("../../../assets/img/map.svg");
   background-position: center;
   background-repeat: no-repeat;
+}
 
+.dottedMapLine {
+  position: absolute;
+  left: 10px;
+  bottom: 276px;
+  width: 208px;
+  height: 355px;
+  background-image: url("../../../assets/img/dottedMapBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+
+}
+.topLine {
+  position: absolute;
+  top:0;
+  width: 220px;
+  height: 100px;
+  background-image: url("../../../assets/img/topLine.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bottomLine {
+  position: absolute;
+  bottom: 0;
+  width: 220px;
+  height: 100px;
+  background-image: url("../../../assets/img/bottomLine.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }

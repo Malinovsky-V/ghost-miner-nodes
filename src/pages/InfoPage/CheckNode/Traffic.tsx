@@ -2,7 +2,7 @@ import styles from "./Traffic.module.css";
 
 export default function Traffic() {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <div className={styles.firstBlock}>
         <div>
           <p className={styles.title}>Network traffic</p>

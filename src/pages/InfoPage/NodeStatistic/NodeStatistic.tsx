@@ -10,6 +10,8 @@ export default function NodeStatistic() {
       </div>
       <div className={styles.dataBlock}>
         <div className={styles.firstDataBlock}>
+          <div className={styles.topLine}></div>
+          <div className={styles.bottomLine}></div>
           <p>
             455 <span>peers</span>
           </p>
@@ -21,7 +23,9 @@ export default function NodeStatistic() {
           <p>Good</p>
         </div>
       </div>
-      <div className={styles.image} />
+
+      <div className={styles.image}></div>
+      <div className={styles.dottedMapLine}></div>
     </div>
   );
 }

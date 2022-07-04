@@ -16,15 +16,19 @@ export default function CheckNode() {
           </div>
           <div className={styles.inputContainer}>
             <InputWithButton
-              type="submit"
+              type="check"
               placeholder="Enter your Node Public key"
-              textButton="CHECK"
+              textButton="Check"
             />
           </div>
+          <div className={styles.backgroundLines} />
         </div>
-        <div className={styles.image} />
+        <div className={styles.imageBlock}>
+          <div className={styles.boxesImage} />
+          <div className={styles.backgroundEllipse} />
+        </div>
       </div>
-      {true && <Traffic />}
+      {false && <Traffic />}
     </div>
   );
 }
