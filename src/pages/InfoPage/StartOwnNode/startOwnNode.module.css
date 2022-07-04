@@ -2,7 +2,7 @@
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 651px 1fr;
-  grid-template-rows: auto;
+  grid-auto-rows: 700px;
   position: relative;
 }
 .textBlockWrapper {
@@ -38,12 +38,11 @@ line-height: 19.6px;
 white-space: pre-line;
 }
 .imageBlock {
-  width: 100%;
+  width: 650px;
   height: 800px;
-  box-sizing: border-box;
-  position: relative;
-  left: 100px;
-  bottom: 130px;
+  position: absolute;
+  right: -100px;
+  top:-150px;
   background-image: url("../../../assets/img/startOwnNode.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -51,11 +50,13 @@ white-space: pre-line;
 .dottedLines {
   background-image: url("../../../assets/img/dottedLines.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   position: absolute;
   bottom: -10px;
-  right: -180px;
+  right: -100px;
+  margin: 0 auto;
   width: 775px;
+  background-size: contain;
   height: 388px;
 }
 .backgroundStartEllipse {

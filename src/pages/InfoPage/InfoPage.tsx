@@ -14,13 +14,7 @@ export default function InfoPage() {
       <CheckNode />
       <RewardCalculator />
       <AboutUs />
-      {false && (
-        <ExamplesInputsWithButtons
-          type="submit"
-          placeholder="sss"
-          textButton="222"
-        />
-      )}
+      {true && <ExamplesInputsWithButtons />}
     </div>
   );
 }
